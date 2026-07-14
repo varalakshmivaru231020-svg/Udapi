@@ -22,7 +22,7 @@ export default function AboutPage() {
       <section className="section">
         <div className="container about-split">
           <div className="about-media" data-reveal>
-            <img src="/assets/img/logo.png" alt="Udupi Sambrama emblem" />
+            <img src="/assets/img/logo-icon.png" alt="Udupi Sambrama emblem" />
             <span>A Unit of</span>
             <p>Siddhi Vinayaka Enterprises</p>
           </div>
@@ -98,7 +98,7 @@ export default function AboutPage() {
             </ul>
           </div>
           <div className="about-media" data-reveal style={{ background: "linear-gradient(160deg, var(--deep), #2e0c06)" }}>
-            <img src="/assets/img/logo.png" alt="Udupi Sambrama emblem" />
+            <img src="/assets/img/logo-icon.png" alt="Udupi Sambrama emblem" />
             <span>Since Our Re-Launch</span>
             <p>Fresh Energy, Same Warmth</p>
           </div>

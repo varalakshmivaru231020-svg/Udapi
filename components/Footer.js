@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className="site-footer">
       <div className="container footer-grid">
         <div className="footer-brand">
-          <img src="/assets/img/logo.png" alt="Udupi Sambrama" className="footer-logo" />
+          <img src="/assets/img/logo-icon.png" alt="Udupi Sambrama" className="footer-logo" />
           <p>A pure-veg A/C fine dine restaurant serving South Indian, North Indian, Chinese, Tandoori, Chats, Icecream &amp; Juices. A unit of Siddhi Vinayaka Enterprises.</p>
           <div className="social-links">
             <a href="#" aria-label="Facebook"><svg className="icon"><use href="#i-facebook" /></svg></a>

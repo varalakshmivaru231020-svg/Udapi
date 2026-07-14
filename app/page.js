@@ -54,7 +54,7 @@ export default function HomePage() {
           <div className="hero-art hero-anim d3">
             <div className="glow" aria-hidden="true"></div>
             <div className="ring" aria-hidden="true"></div>
-            <img src="/assets/img/logo.png" alt="Udupi Sambrama emblem" />
+            <img src="/assets/img/logo-icon.png" alt="Udupi Sambrama emblem" />
           </div>
         </div>
       </section>

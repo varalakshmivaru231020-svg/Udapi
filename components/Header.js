@@ -20,7 +20,7 @@ export default function Header() {
     <header className="site-header">
       <div className="container header-inner">
         <Link href="/" className="brand">
-          <img src="/assets/img/logo.png" alt="Udupi Sambrama logo" className="brand-logo" />
+          <img src="/assets/img/logo-icon.png" alt="Udupi Sambrama logo" className="brand-logo" />
           <span className="brand-text">
             <strong>Udupi Sambrama</strong>
             <small>A/C Fine Dine &middot; Pure Veg</small>

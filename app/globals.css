@@ -180,7 +180,7 @@ ul { list-style: none; margin: 0; padding: 0; }
   gap: 12px;
   flex-shrink: 0;
 }
-.brand-logo { width: 54px; height: 54px; object-fit: contain; }
+.brand-logo { width: 46px; height: 46px; object-fit: cover; border-radius: 50%; border: 2px solid var(--gold); }
 .brand-text { display: flex; flex-direction: column; line-height: 1.2; }
 .brand-text strong { font-family: var(--font-display); font-size: 19px; color: var(--maroon); }
 .brand-text small { font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-soft); }
@@ -354,6 +354,10 @@ ul { list-style: none; margin: 0; padding: 0; }
   position: relative;
   width: 78%;
   max-width: 360px;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid var(--gold);
   filter: drop-shadow(0 25px 40px rgba(0,0,0,0.45));
   animation: floatY 5s ease-in-out infinite;
 }
@@ -592,7 +596,7 @@ ul { list-style: none; margin: 0; padding: 0; }
   text-align: center;
   box-shadow: var(--shadow-lg);
 }
-.about-media img { width: 220px; margin: 0 auto 18px; filter: drop-shadow(0 15px 25px rgba(0,0,0,0.35)); }
+.about-media img { width: 160px; aspect-ratio: 1; object-fit: cover; border-radius: 50%; border: 4px solid var(--gold); margin: 0 auto 18px; filter: drop-shadow(0 15px 25px rgba(0,0,0,0.35)); }
 .about-media p { color: rgba(255,255,255,0.85); font-family: var(--font-display); font-size: 20px; margin: 0; }
 .about-media span { color: var(--gold); font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; }
 
@@ -786,7 +790,7 @@ ul { list-style: none; margin: 0; padding: 0; }
   padding-bottom: 40px;
   border-bottom: 1px solid rgba(255,255,255,0.1);
 }
-.footer-logo { width: 60px; margin-bottom: 14px; }
+.footer-logo { width: 52px; height: 52px; object-fit: cover; border-radius: 50%; border: 2px solid var(--gold); margin-bottom: 14px; }
 .footer-brand p { font-size: 13.5px; line-height: 1.7; }
 .footer-col h4 { color: var(--white); font-family: var(--font-body); font-size: 14px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 16px; }
 .footer-col a, .footer-col span { display: block; font-size: 13.8px; margin-bottom: 11px; color: rgba(255,255,255,0.7); }
